@@ -16,7 +16,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.651.1",
     "dotenv": "^16.4.5",
-    "express": "^4.21.1",
+    "express": "^4.17.1",
     "kafkajs": "^2.2.4",
     "multer": "^2.0.2",
     "node-fetch": "v2",
