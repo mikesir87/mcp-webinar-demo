@@ -4,7 +4,7 @@ const { LocalstackContainer } = require("@testcontainers/localstack");
 const path = require("path");
 
 async function createAndBootstrapPostgresContainer() {
-  const postgresContainer = await new PostgreSqlContainer("postgres:17.4")
+  const postgresContainer = await new PostgreSqlContainer("postgres:17.6")
     .withCopyFilesToContainer([
       {
         source: path.join(__dirname, "../../dev/db/1-create-schema.sql"),
